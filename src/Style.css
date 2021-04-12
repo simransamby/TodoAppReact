@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.app-cont {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+     background-color: darkslategrey;
+     HEIGHT: 100VH;
+}
+h1 {
+    padding: 4vh 0;
+    color: dimgrey;
+    background: beige;
+    text-align: center;
+}
+form{
+  margin: 6vh 0;
+ justify-content: center;
+ display: flex;
+ height: 40PX;
+}
+.fm-cont{   
+        background-color: darkseagreen;
+        height: 100vh;
+        width: 100%;
+        max-width: 450px;
+      
+            
+}
+.inp-fm{
+    border-radius: 4px;
+       outline: none;
+       border: none;
+    width: 55%;
+    font-size: 20px;
+        padding: 10px;
+}
+
+
+.btn {
+    width: 10%;
+    color: white;
+    background-color: tomato;
+    border: none;
+   border-radius: 5px;
+   box-shadow: 0px 0px 5px black;
+  
+}
+
+.td-cont{
+    padding: 4% 0;
+}
+
+.td-cont li{
+   font-size: 16px;
+   margin: 4% 12%;
+   color: aquamarine;
+   background-color: dimgray;
+   padding: 2.5%;
+   border-radius: 5px;
+   list-style: none;
+overflow-wrap: anywhere;
+box-shadow: 0px 0px 4px #000000b5;
+
+}
+
+.rem-btn {
+    float: right;
+    width: 18px;
+    color: tomato;
+    font-weight: 700;
+    background-color: dimgrey;
+    box-shadow: -1px 1px 5px black;
+    border-radius: 67%;
+    border: none;
+}
+
+.dt{
+color: beige;
+top: 20px;
+position: relative;
+left: 70px;
+}
+
+
+@media screen and (min-width: 450px) {
+    
+
+    .fm-cont {
+            margin: 4% 0;
+            border-radius: 12px;
+            box-shadow: 0px 0px 25px black;
+            }
+    
+
+    h1{
+          border-top-left-radius: 12px;
+          border-top-right-radius: 12px;
+        }
+    }
