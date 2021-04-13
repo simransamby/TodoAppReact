@@ -18,7 +18,7 @@ const addHandle =(event) =>{
      event.preventDefault();      // to make the form behaviour // enter to submit & not reloading the page
  //   console.log([...todos,{id:uuid(),text:input}])
     setTodos([{id:uuid(),text:input},...todos])  // concate todo objs together with new created todo with random id & text from input
-    setInput([])   // clears the place holder once the todo is submitted
+    setInput()   // clears the place holder once the todo is submitted
 }
 
 const remHandle =(id) => {
